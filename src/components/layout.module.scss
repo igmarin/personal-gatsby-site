@@ -1,17 +1,13 @@
 @import '../styles/global';
 
-body {
+.wrapper {
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.4em;
   height: 100vh;
-}
-
-.wrapper {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  flex-grow: 1;
 }
 
 h1 {
