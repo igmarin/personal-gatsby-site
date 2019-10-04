@@ -5,10 +5,8 @@ import Layout from "../components/layout"
 
 export default () => (
   <Layout>
-    <div>
-      <Link to="/about">About</Link> | <Link to="/">Home</Link>
-    </div>
-    <h1>No existo</h1>
-    <p className={styles.message}>Soy o no soy</p>
-  </Layout>
+    <Link to="/about">About</Link> | <Link to="/">Home</Link>
+    <h1>404</h1>
+    <p className={styles.message}>Sorry but this page doens't exists</p>
+  </Layout >
 )

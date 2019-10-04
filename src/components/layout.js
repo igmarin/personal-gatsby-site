@@ -5,6 +5,6 @@ import Footer from "./footer.js";
 export default ({ children }) => (
   <div className={styles.wrapper}>
     {children}
-    <Footer>Ismael G Marín C</Footer>
+    <Footer>Personal site if you want to know more feel free to email to: </Footer>
   </div>
 )

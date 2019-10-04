@@ -1,5 +1,15 @@
 @import '../styles/global';
 
+body {
+  background-image: url('../images/background.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  background-color: $favorite-grey;
+}
+
 .wrapper {
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.4em;
@@ -8,10 +18,11 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  color: $white;
 }
 
 h1 {
-  color: #474747;
-  padding: 10px;
-  background-color: beige;
+  color: $favorite-grey;
+  color: $white;
+  font-weight: 700;
 }
