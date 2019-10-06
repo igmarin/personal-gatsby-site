@@ -1,0 +1,23 @@
+@import '../styles/global';
+
+.header {
+  display: flex;
+  flex-direction: row;
+  color: $white;
+  text-shadow: 2px 2px 3px #000000;
+  letter-spacing: 0.0625em;
+}
+
+.link {
+  color: $white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.2em;
+  text-shadow: 2px 2px 3px #000000;
+  transition: all .2s ease-in-out;
+}
+
+.link:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}

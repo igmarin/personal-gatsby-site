@@ -1,21 +1,28 @@
 @import '../styles/global';
 
 body {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 1.4em;
-  height: 100vh;
+  background-image: url('../images/background.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  background-color: $favorite-grey;
 }
 
 .wrapper {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.4em;
+  height: 100vh;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  flex-grow: 1;
+  color: $white;
 }
 
 h1 {
-  color: #474747;
-  padding: 10px;
-  background-color: beige;
+  color: $favorite-grey;
+  color: $white;
+  font-weight: 700;
 }

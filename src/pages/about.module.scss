@@ -1,5 +1,6 @@
+@import '../styles/global';
+
 .message {
-  background-color: grey;
+  background-color: $favorite-grey;
   padding: 20px;
-  color: black;
 }
