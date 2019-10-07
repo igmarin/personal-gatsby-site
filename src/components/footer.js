@@ -17,7 +17,7 @@ const socialNetwork = (to, text) => {
     default:
       return null;
   }
-}
+};
 
 const FooterLink = props => (
   <a href={`${socialNetwork(props.to, props.text)}`} className={styles.icons} target="_blank" rel="noopener noreferrer">{props.icon}</a>

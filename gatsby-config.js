@@ -5,6 +5,8 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: 'Ismael Marin Profile Page'
+  },
   plugins: [`gatsby-plugin-sass`]
 }
