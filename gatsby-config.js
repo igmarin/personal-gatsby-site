@@ -6,7 +6,15 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'Ismael Marin Profile Page'
+    title: "Ismael Marin Profile Page",
   },
-  plugins: [`gatsby-plugin-sass`]
+  plugins: [
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
+  ],
 }
